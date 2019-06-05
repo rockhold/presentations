@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Autopilot, Disengage!</title>
+
+    <link rel="stylesheet" href="reveal.js-3.5.0/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js-3.5.0/css/theme/black.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'reveal.js-3.5.0/css/print/pdf.css' : 'reveal.js-3.5.0/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>Autopilot, Disengage!</h1>
+            <small>Brandon Rockhold / Senior Engineering Manager</small>
+        </section>
+
+        <section>
+            <h2>Habits</h2>
+            <h5>Routines or behaviors performed regularly, often *automatically</h5>
+            <small>*Sometimes for good, sometimes for evil (or at least un-good)</small>
+        </section>
+
+        <section>
+            <h3>Goals &lt; 10 Minute Version</h3>
+            <ul>
+                <li>Learn about habit formation & how to evaluate their effectiveness</li>
+                <li>Learn strategies for creating/breaking habits</li>
+                <li>Commit to use what you've learned</li>
+                <li><strike>Make fun of all my bad habits</strike></li>
+            </ul>
+        </section>
+
+        <!--<section>
+            <h3>Disclaimers</h3>
+            <ul>
+                <li>We have less than 10 minutes!!!</li>
+                <li>This stuff is simple (not the same as easy)</li>
+                <li>Your social media addiction isn't going to be fixed overnight</li>
+            </ul>
+        </section>-->
+
+        <section>
+            <h3>Recommended Reading / Inspiration</h3>
+            <img src="images/AtomicHabits.jpg" width="331px" height="449px" />
+        </section>
+
+        <!--<section>
+            <h3>Behavior Change Considerations</h3>
+            <ul>
+                <li>Can change outcomes, processes, or your identity</li>
+                <li>Outcomes or processes in conflict with who we are will not last</li>
+                <li>Focus on WHO you want to become rather than WHAT you want to do; the behavior reinforces the identity</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Positive Impacts of Identity</h3>
+            <p>You can progress towards these goals with even the smallest of habits, reinforcing the identity.</p>
+            <ul>
+                <li>"I want to become someone who is fit"</li>
+                <li>"I want to become someone who learns something new every day"</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Negative Impacts of Identity</h3>
+            <p>These identities will provide extra friction if attempting to adopt habits to their contrary.</p>
+            <ul>
+                <li>"I don't get Git"</li>
+                <li>"I'm not a UI developer"</li>
+                <li>"I always procrastinate"</li>
+            </ul>
+        </section>-->
+
+        <section>
+            <h3>The Four Stages of Habits</h3>
+            <p>
+                <ol>
+                    <li>Cue - The trigger predicting a reward</li>
+                    <li>Craving - The motivation driving our change</li>
+                    <li>Response - The actual habit being performed</li>
+                    <li>Reward - The end goal of the habit</li>
+                </ol>
+            </p>
+        </section>
+
+        <section>
+            <h3>The Habit Feedback Loop</h3>
+            <img src="images/TheHabitLoop.png" />
+        </section>
+
+        <section>
+            <small>A Framework for Changing Behavior</small>
+            <h3>Stage 1: Cue - Make it Obvious</h3>
+        </section>
+
+        <section>
+            <small>A Framework for Changing Behavior</small>
+            <h3>Stage 2: Craving - Make it Attractive</h3>
+        </section>
+
+        <section>
+            <small>A Framework for Changing Behavior</small>
+            <h3>Stage 3: Response - Make it Easy</h3>
+        </section>
+
+        <section>
+            <small>A Framework for Changing Behavior</small>
+            <h3>Stage 4: Reward - Make it Satisfying</h3>
+        </section>
+    </div>
+</div>
+
+<script src="reveal.js-3.5.0/lib/js/head.min.js"></script>
+<script src="reveal.js-3.5.0/js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        transition: 'convex',
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'reveal.js-3.5.0/plugin/markdown/marked.js'},
+            {src: 'reveal.js-3.5.0/plugin/markdown/markdown.js'},
+            {src: 'reveal.js-3.5.0/plugin/notes/notes.js', async: true},
+            {
+                src: 'reveal.js-3.5.0/plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.configure({
+                        tabReplace: '    ',
+                        languages: ['java'],
+                    }),
+                            hljs.initHighlightingOnLoad();
+                }
+            }
+        ]
+    });
+</script>
+</body>
+</html>
